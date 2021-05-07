@@ -1,0 +1,23 @@
+SNAP-REPO=devops-snapshot
+NEXUS-USER=admin
+NEXUS-PASS=admin@123
+
+RELEASE-REPO=devops-release
+NEXUS-USER=admin
+NEXUS-PASS=admin@123
+
+CENTRAL-REPO=devops-central
+NEXUS-USER=admin
+NEXUS-PASS=admin@123
+
+NEXUS-GRP-REPO=devops-group-mvn
+NEXUS-USER=
+NEXUS-PASS=
+
+NEXUSIP= 172.31.72.194
+NEXUSPORT=8081
+	
+
+	673528d9026e2646fb7a8cc711ae4f9e56154ef1
+
+
