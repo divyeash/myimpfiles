@@ -74,7 +74,7 @@ pipeline {
           }
         }
 
-        stage('CODE ANALYSIS with SONARQUBE') {
+        /* stage('CODE ANALYSIS with SONARQUBE') {
 
             environment {
                 scannerHome = tool 'SONAR-4.6.0.2311'
@@ -96,7 +96,7 @@ pipeline {
                     waitForQualityGate abortPipeline: true
                 }
             }
-        }
+        }*/
         stage('Kubernetes Deploy') {
 	  agent { label 'KOPS' }
             steps {
